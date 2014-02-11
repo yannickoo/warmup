@@ -1,0 +1,33 @@
+name = Warm-up
+description = A pre-configured Drupal.
+core = 7.x
+
+distribution_name = Warm-up
+
+; Required modules (Core)
+dependencies[] = block
+dependencies[] = contextual
+dependencies[] = dblog
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = help
+dependencies[] = image
+dependencies[] = menu
+dependencies[] = path
+
+; Required modules (Contrib)
+dependencies[] = admin_menu
+dependencies[] = admin_menu_toolbar
+dependencies[] = backup_migrate
+dependencies[] = coffee
+dependencies[] = ds
+dependencies[] = ds_extras
+dependencies[] = final_polish
+dependencies[] = globalredirect
+dependencies[] = module_filter
+dependencies[] = pathauto
+dependencies[] = pathologic
+dependencies[] = shield
+dependencies[] = transliteration
+dependencies[] = views
+dependencies[] = views_ui
